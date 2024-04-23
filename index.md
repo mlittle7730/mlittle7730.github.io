@@ -8,7 +8,12 @@
 
 ### *Code Review*
 
-CONTENT
+Why conduct Code Review anyway?
+Whether the project is large scale or a small project, code review should be a prioritized process. The objective of a successful code review is reviewing it and making sure it is functional, doesn't have any logic errors or bugs within the code, making sure it is organized and practically written, and lastly verifying its security.
+
+Here I review the code I enhanced. I go over the functionality of the original code, how the structure, logic, efficiency, functionality, security, testing, commenting, and documenting can be improved, and lastly a walkthrough of the planned enhancements and how they will meet the five course outcomes accross the three categories.
+
+Watch the code review video here.
 
 ### *Software Design and Engineering*
 
