@@ -1,2 +1,2 @@
 # mlittle7730.github.io
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
