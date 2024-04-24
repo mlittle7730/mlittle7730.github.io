@@ -17,7 +17,7 @@ Here I review the code I enhanced. I go over the functionality of the original c
 
 ### *Software Design and Engineering*
 
-CONTENT
+My artifact for the software design and engineering category is a C++ project that was converted into a Python application that uploads data from a .csv file and sorts it using several parameters. This application also allows the user to import new data to display and sort.
 
 <center>
   <img src="Category1 After.JPG" height=250>
