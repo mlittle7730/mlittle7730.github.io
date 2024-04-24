@@ -19,6 +19,10 @@ Here I review the code I enhanced. I go over the functionality of the original c
 
 CONTENT
 
+<center>
+  <img src="Category1 After.jpg" height=250>
+</center>
+
 ### *Algorithms and Data Structures*
 
 CONTENT
