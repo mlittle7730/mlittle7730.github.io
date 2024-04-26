@@ -1,5 +1,5 @@
 <center>
-  <img src="Miguel Little.jpg" height=250 width=250>
+  <img src="MiguelLittle.png" height=250 width=250>
 </center>
 
 # <center>CS499 - Computer Science Capstone</center>
