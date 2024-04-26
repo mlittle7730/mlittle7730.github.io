@@ -17,6 +17,8 @@ Here I review the code I enhanced. I go over the functionality of the original c
 
 ## FINAL PROJECT
 
+This is my Python Application after all of the changes have been made to meet all of the three categories. The GUI is visually appealing and the application functions allow the user to display the bids, sort them by a few different parameters, add a bid entry, and to display the bids that have been uploaded to the database.
+
 <img src="Category1 After.JPG" height=250>
 
 ### *Software Design and Engineering*
