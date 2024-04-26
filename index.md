@@ -21,6 +21,8 @@ This is my Python Application after all of the changes have been made to meet al
 
 <img src="Category1 After.JPG" height=250>
 
+View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.io/tree/main/Gov%20Bids%20Application).
+
 ### *Software Design and Engineering*
 
 My artifact for the software design and engineering category is a C++ project that was converted into a Python application that uploads data from a .csv file and sorts it using several parameters. This application also allows the user to import new data to display and sort.
