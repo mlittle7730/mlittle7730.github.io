@@ -6,13 +6,15 @@
 
 ## <center>Southern New Hampshire University</center>
 
-## INITIAL ARTIFACT
+## <center>INITIAL ARTIFACT</center>
 
 This is the artifact project I will be making enhancements to. This application is written in C++ and it has a basic terminal interface for users to display bids and sort them using basic sort algorithms. The reason I chose this project as an artifact to enhance is because it has a lot of room for improvement such as a creating a proper GUI, making the code modular, better algorithm utilization such as sorting by parameters, and enhancing the user experience and usability such as creating an "Add a bid" function and a database to store the added bids.
 
 Here is the original terminal interface for the application:
 
 <img src="Category1 Before.JPG" height=250>
+
+View the original artifact code HERE
 
 ### *Code Review*
 
@@ -23,7 +25,7 @@ Here I review the code I enhanced. I go over the functionality of the original c
 
 <code>Click HERE to watch the code review video.</code>
 
-## ENHANCED ARTIFACT
+## <center>ENHANCED ARTIFACT</center>
 
 This is my Python Application after all of the changes have been made to meet all of the three categories. The GUI is visually appealing and the application functions allow the user to display the bids, sort them by a few different parameters, add a bid entry, and to display the bids that have been uploaded to the database.
 
