@@ -6,7 +6,7 @@ class GUI:
     def __init__(self):
         self.data = Data()
         self.root = tk.Tk()
-        self.root.title('Bids')
+        self.root.title('Government Bids')
         
         # Create a Style object to manage themes
         self.style = ttk.Style()
@@ -22,7 +22,7 @@ class GUI:
 
 
         options = ['Load Bids', 'Sort by Title',
-           'Sort by Amount', 'Insert a New Bid', 'Sort by Closing Dates', 'Load From DB']
+           'Sort by Amount', 'Insert a New Bid', 'Sort by Closing Dates', 'Load From DB', 'Bubble Sort by Title']
 
         # Create Radiobuttons for each option
         for option in options:
@@ -100,6 +100,8 @@ class GUI:
             self.data.sort_by_title()
         elif selected == 'Sort by Amount':
             self.data.sort_by_amount()
+        elif selected == 'Bubble Sort by Title':
+            self.data.custom_sort_title()
         elif selected == 'Insert a New Bid':
             self.data.insert_bid()
         elif selected == 'Sort by Closing Dates':

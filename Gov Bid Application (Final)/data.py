@@ -77,9 +77,11 @@ class Data:
         #gui.load_dataframe_into_treeview(df, tree)
         return df_new
     
+    #Heap sort time complexity
+    #Worst case scenario O(n log n)
     def sort_by_title(self):
         start_time = time.time()
-        self.df = self.df.sort_values(by="ArticleTitle", ascending=True)
+        self.df = self.df.sort_values(by="ArticleTitle", ascending=True, kind="heapsort")
         #load_dataframe_into_treeview(df, tree)
         end_time = time.time()
         duration = end_time - start_time
@@ -109,6 +111,20 @@ class Data:
     def sort_by_closing_date(self):
         self.df['CloseDate '] = pd.to_datetime(self.df['CloseDate '])
         self.df = self.df.sort_values(by='CloseDate ',ascending=False)
+        
+    # Bubble Sort
+    def custom_sort_title(self):
+        print('hi')
+        #convert to a list of tuples
+        data = [tuple(row) for row in self.df.values]
+        n = len(data)
+        for i in range(n):
+            for j in range(0, n-i-1):
+                if data[j][1] > data[j+1][1]:  # Sort by the first column (Name in this case)
+                    data[j], data[j+1] = data[j+1], data[j]
+        #reconstruct dataframe
+        self.df = pd.DataFrame(data, columns=self.df.columns)
+        
     
     def insert_bid(self):
         print()
