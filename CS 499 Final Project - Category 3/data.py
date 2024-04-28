@@ -19,7 +19,8 @@ class Data:
             Fund TEXT
         )
         """)
-        
+    
+    #This loads the bids from the database and appends them to the current bids
     def load_from_db(self, gui):
         self.cursor.execute("SELECT * FROM bids")
         rows = self.cursor.fetchall()
@@ -29,10 +30,13 @@ class Data:
         self.df['WinningBid '] = self.df['WinningBid '].astype(str)
         #print(rows)
         #gui.load_dataframe_into_treeview(self.df, tree)
-        
+    
+    #This function loads data from a csv defined in filename
     def load_csv_data(self, filename):
         return pd.read_csv(filename)
     
+    #grabs the data submitted by the user through the GUI and appends 
+    #them to the dataframe and database
     def submit_input(self,gui):
         # Retrieve the input from the Entry widget
         #form = '%b %d %Y'
@@ -71,7 +75,7 @@ class Data:
         # for row in csv_df:
         #     new_row = {col: value for col, value in zip(csv_df.columns, row)}
         #     df.loc[len(df)] = new_row
-        df_new = self.df.append(csv_df, ignore_index=True)
+        df_new = self.df._append(csv_df, ignore_index=True)
         self.df['WinningBid '] = self.df['WinningBid '].astype(str)
         #print(df)
         #gui.load_dataframe_into_treeview(df, tree)
@@ -86,7 +90,8 @@ class Data:
         end_time = time.time()
         duration = end_time - start_time
         print("Sort by title took {:.2f} seconds to execute.".format(duration))
-        
+    
+    #This function sorts by amount using quick sort.
     def sort_by_amount(self):
         start_time = time.time()
     # Clean the 'WinningBid' column
@@ -112,7 +117,7 @@ class Data:
         self.df['CloseDate '] = pd.to_datetime(self.df['CloseDate '])
         self.df = self.df.sort_values(by='CloseDate ',ascending=False)
         
-    # Bubble Sort
+    # Bubble Sort Best: O(n), Average: O(n^2), Worst:O(n^2)
     def custom_sort_title(self):
         print('hi')
         #convert to a list of tuples

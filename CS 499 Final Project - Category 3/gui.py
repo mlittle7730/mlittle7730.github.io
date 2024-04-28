@@ -87,7 +87,7 @@ class GUI:
         
         self.root.mainloop()
         
-        
+    #user bid input handler
     def submit_input(self):
         self.data.submit_input(self)
         self.load_dataframe_into_treeview()
@@ -111,12 +111,15 @@ class GUI:
             # Perform an action with the selected option (e.g., print it)
         self.load_dataframe_into_treeview()
         print(f"You clicked the button after selecting: {selected}")
-        
+    
+    #this function decides which function to run based on user selection
     def on_select(self):
         print(f'You selected: {self.selected_option.get()}')
         self.submit_button.config(state='normal')
         self.result_label.config(text=f"You selected: {self.selected_option.get()}")
+    
         
+    #this function is used to update the gui with all the bids
     def load_dataframe_into_treeview(self):
     # Clear the Treeview
         for row in self.tree.get_children():
