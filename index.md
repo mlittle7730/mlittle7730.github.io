@@ -23,7 +23,7 @@ Here is the original terminal interface for the application:
 
 <img src="Category1 Before.JPG" height=250>
 
-View the original artifact code HERE
+View the original artifact code [HERE] (https://github.com/mlittle7730/mlittle7730.github.io/tree/Vector-Sorting).
 
 ## <center>ENHANCED ARTIFACT</center>
 
@@ -35,13 +35,17 @@ Here is the new and improved GUI for this application:
 
 View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.io/tree/Gov-Bids-Application).
 
+### <center>Meeting Each Categories</center>
+
 ### *Software Design and Engineering*
 
-My artifact for the software design and engineering category is a C++ project that was converted into a Python application that uploads data from a .csv file and sorts it using several parameters. This application also allows the user to import new data to display and sort.
+I enhanced the Software Design and Engineering in this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing, so it has been updated to a nicer GUI that now has radio select buttons and displays the data in an organized column using tkinter.
+
+View my narrative for this enhancement HERE:
 
 ### *Algorithms and Data Structures*
 
-CONTENT
+
 
 ### *Databases*
 
