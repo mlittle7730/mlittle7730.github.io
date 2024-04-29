@@ -21,7 +21,7 @@ Whether the project is large scale or a small project, code review should be a p
 
 Here I review the code I enhanced. I go over the functionality of the original code, how the structure, logic, efficiency, functionality, security, testing, commenting, and documenting can be improved, and lastly a walkthrough of the planned enhancements and how they will meet the five course outcomes accross the three categories.
 
-<code>Click HERE to watch the code review video.</code>
+Click [HERE](https://drive.google.com/file/d/1Wbz0zFgD8CoNAkRwpnA0gpTpmdjPFkHz/view?usp=drive_link) to watch the code review video.
 
 ## <center>ORIGINAL ARTIFACT</center>
 
