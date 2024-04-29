@@ -66,3 +66,25 @@ View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mli
 Lastly, I added a Database to this artifact using SQL Lite. The user could add bids to the data but it wasn't stored anywhere and was lost once the program was shut. By adding a database to this application to hold the added bids they were able to save through each run. The user can now load the bids from the database with or seperate from the CSV data, and sort through the data as usual.
 
 View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
+
+### <center>Meeting Each Course Outcome</center>
+
+### *Outcome 1*
+
+I employed strategies for building collaborative environments by pushing my code to a git repository. I also met this course outcome by reviewing the code and applying changes where needed through the review and commenting out each new change. I also Modularized the code, since it is now running through an object oriented design, other coders can easily jump in and add new functionality. I listed TO-DO's each time I was going to start and each time I finished a session of updates for the code.
+
+### *Outcome 2*
+
+I have designed, developed, and delivered quality oral, written, and visual communications by creating the Python application, a nice GUI to accompany it, and adding sorting algorithms. The application sorts by parameters and implements bubble sort in one of the sorting options as well. Adding a database that implemented the attributes in the proper columns was also important. I included a README file in the repository stored final project to explain changes. Doing all of these changes met Outcome 2.
+
+### *Outcome 3*
+
+I designed and evaluated computing solutions that solved given problems using algorithmic principles by implementing sort by parameter functions within the code. Users can now sort through the data provided within the CSV file and the database. will meet this course outcome by using algorithmic principles to apply the sort algorithms and computer science practices and standards when creating each function, variable, and organizing the program. Also, creating the Python application shows my ability to reconstruct the algorithmic principles in a different coding language so the functions work flawlessly.
+
+### *Outcome 4*
+
+I will meet this course outcome by creating the classes to modularize the code, utilizing sort algorithms, and setting up the GUI using event handlers for the radio select buttons. I will keep testing the code after each implementation to make sure I am working along with the software development life cycle. Implementing algorithms and modularizing the code ensures I am meeting industry-specific goals.
+
+### *Outcome 5*
+
+I will meet this course outcome by hosting the database locally to ensure that it is secure. I will also make sure the code is commented out and perform code review with a security mindset to make sure there aren’t loose ends.
