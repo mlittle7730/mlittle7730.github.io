@@ -6,6 +6,12 @@
 
 ## <center>Southern New Hampshire University</center>
 
+### <center>Professional Self Assessment</center>
+
+Here at Southern New Hampshire University I have learned many skills, both technical and practical. In studying Computer Science, it has not always been the easiest of projects, but it has taught me how to overcome problems and how to really learn new abilities and skills. One of the hardest courses I took was my OpenGL course, CS-330 Computer Graphics and Visualization. In that course I had to create a 3D environment that mirrored a photo I took of three objects. Through all of the struggle in this class I was finally able to learn how to create the environment. That class helped me to apply skills needed in this industry, which are practical skills such as thinking outside the box, learning and planning before executing, and enjoying the challenges while pushing through. My CS-260 class really helped me to develop my skills in software engineering, as well as how to work with data structures and algorithms. I also took DAD-220 which focused on database, learning how to sort and display data helped a lot with the enhancements I have made in this ePortfolio. My CS-310, Collaboration and Team Project course helped me to understand how to collaborate in team environments by understanding how companies plan and push to organizational repositories for updates and changes.
+
+Here in my ePortfolio, I will showcase a summary of core skills (Categories: Software Design/Engineering, Data Structures and Algorithms, and Databases) I have learned here at SNHU, this is part of my Computer Science Capstone course.
+
 ### *Code Review*
 
 Why conduct Code Review anyway?
@@ -23,7 +29,7 @@ Here is the original terminal interface for the application:
 
 <img src="Category1 Before.JPG" height=250>
 
-View the original artifact code [HERE] (https://github.com/mlittle7730/mlittle7730.github.io/tree/Vector-Sorting).
+View the original artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.io/tree/Vector-Sorting).
 
 ## <center>ENHANCED ARTIFACT</center>
 
@@ -48,6 +54,7 @@ View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mli
 I then enhanced the Algorithms and Data Structures in this artifact by first implementing time complexity to the sort algorithms so that it displays how long it took to sort the data by parameters. To increase algorithm complexity I added a new algorithm for sort by title using Bubble sort by Big-O, and created a radio select button for it ("Bubble Sort by Title"). Here are the scenarios for the bubble sort algorithm, where N is the number of items in the data it's sorting.
 
 <img src="scenarios.png" height=250>
+
 <code><a href="https://big-o.io/">Image Source</a>.</code>
 
 View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
