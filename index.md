@@ -80,7 +80,7 @@ I have designed, developed, and delivered quality oral, written, and visual comm
 
 ### *Outcome 3*
 
-I designed and evaluated computing solutions that solved given problems using algorithmic principles by implementing sort by parameter functions within the code. Users can now sort through the data provided within the CSV file and the database. I also met this course outcome by recreating each algorithm and function in a Python application rather than C++ which showed my ability to translate code to a different language. I also implemented bubble sort as an additional algorithm for another sorting option. I've made sure to ill keep computer science practices and standards in mind as a priority when creating each function, variable, and organizing the program, therefore all is named properly. The design is a lot nicer using a GUI instead of commandline for the application.
+I designed and evaluated computing solutions that solved given problems using algorithmic principles by implementing sort by parameter functions within the code. Users can now sort through the data provided within the CSV file and the database. I also met this course outcome by recreating each algorithm and function in a Python application rather than C++ which showed my ability to translate code to a different language. I also implemented bubble sort as an additional algorithm for another sorting option. I've made sure to keep computer science practices and standards in mind as a priority when creating each function, variable, and organizing the program, therefore all is named properly. The design is a lot nicer using a GUI instead of commandline for the application.
 
 ### *Outcome 4*
 
