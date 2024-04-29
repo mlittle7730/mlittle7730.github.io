@@ -1,6 +1,6 @@
 # <pre align="center">Final Project</pre>
 
-*Note: Due to Libary version, "append" on line 78 of the "data.py" file may have to be updated to "_append" or vise versa.*
+*Note: Due to Libary version, "append" on line 74 of the "data.py" file may have to be updated to "_append" or vise versa.*
 
 ## <pre align="center">Functionality</pre>
 
