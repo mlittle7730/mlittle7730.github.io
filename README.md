@@ -1,4 +1,4 @@
-### <center>Final Project</center>
+# <center>Final Project</center>
 
 *Note: Due to Libary version, "append" on line 78 of the "data.py" file may have to be updated to "_append" or vise versa.*
 
