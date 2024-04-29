@@ -35,18 +35,25 @@ Here is the new and improved GUI for this application:
 
 View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.io/tree/Gov-Bids-Application).
 
-### <center>Meeting Each Categories</center>
+### <center>Meeting Each Category</center>
 
 ### *Software Design and Engineering*
 
-I enhanced the Software Design and Engineering in this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing, so it has been updated to a nicer GUI that now has radio select buttons and displays the data in an organized column using tkinter.
+I enhanced the Software Design and Engineering in this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing, so it has been updated to a nicer GUI that now has radio select buttons and displays the data in an organized column using tkinter. Since the application was solely driven by functions in the main file, I then made it modular by creating classes for the functionality.
 
-View my narrative for this enhancement HERE:
+View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Software%20Engineering%20and%20Design%20-%20Narrative.pdf).
 
 ### *Algorithms and Data Structures*
 
+I then enhanced the Algorithms and Data Structures in this artifact by first implementing time complexity to the sort algorithms so that it displays how long it took to sort the data by parameters. To increase algorithm complexity I added a new algorithm for sort by title using Bubble sort by Big-O, and created a radio select button for it ("Bubble Sort by Title"). Here are the scenarios for the bubble sort algorithm, where N is the number of items in the data it's sorting.
 
+<img src="scenarios.png" height=250>
+<code><a href="https://big-o.io/">Image Source</a>.</code>
+
+View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
 
 ### *Databases*
 
-CONTENT
+Lastly, I added a Database to this artifact using SQL Lite. The user could add bids to the data but it wasn't stored anywhere and was lost once the program was shut. By adding a database to this application to hold the added bids they were able to save through each run. The user can now load the bids from the database with or seperate from the CSV data, and sort through the data as usual.
+
+View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
