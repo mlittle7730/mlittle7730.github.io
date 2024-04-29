@@ -79,12 +79,12 @@ I have designed, developed, and delivered quality oral, written, and visual comm
 
 ### *Outcome 3*
 
-I designed and evaluated computing solutions that solved given problems using algorithmic principles by implementing sort by parameter functions within the code. Users can now sort through the data provided within the CSV file and the database. will meet this course outcome by using algorithmic principles to apply the sort algorithms and computer science practices and standards when creating each function, variable, and organizing the program. Also, creating the Python application shows my ability to reconstruct the algorithmic principles in a different coding language so the functions work flawlessly.
+I designed and evaluated computing solutions that solved given problems using algorithmic principles by implementing sort by parameter functions within the code. Users can now sort through the data provided within the CSV file and the database. I also met this course outcome by recreating each algorithm and function in a Python application rather than C++ which showed my ability to translate code to a different language. I also implemented bubble sort as an additional algorithm for another sorting option. I've made sure to ill keep computer science practices and standards in mind as a priority when creating each function, variable, and organizing the program, therefore all is named properly. The design is a lot nicer using a GUI instead of commandline for the application.
 
 ### *Outcome 4*
 
-I will meet this course outcome by creating the classes to modularize the code, utilizing sort algorithms, and setting up the GUI using event handlers for the radio select buttons. I will keep testing the code after each implementation to make sure I am working along with the software development life cycle. Implementing algorithms and modularizing the code ensures I am meeting industry-specific goals.
+I demonstrated an ability to use well-founded and innovative techniques, skills, and tools while also meeting industry-specific goals meet this course by creating the classes to modularize the code, utilizing sort functions by parameters, and setting up the GUI using event handlers for the radio select buttons. Implementing algorithms and modularizing the code ensured I am meeting industry-specific goals as this is a very common implementation in the industry. I also made sure to comment out changes and create a readme file to meet this outcome further.
 
 ### *Outcome 5*
 
-I will meet this course outcome by hosting the database locally to ensure that it is secure. I will also make sure the code is commented out and perform code review with a security mindset to make sure there aren’t loose ends.
+I made sure to meet this course outcome by hosting the database locally so that the code is automatically secure. I have also commented out every part of the code and made sure deallocation is in place.
