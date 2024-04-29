@@ -1,6 +1,7 @@
 # <pre align="center">Final Project</pre>
 
 *Note: Due to Libary version, "append" on line 74 of the "data.py" file may have to be updated to "_append" or vise versa.*
+*Note: Make sure Date added when using "Add a Bid" is an existing date*
 
 ## <pre align="center">Functionality</pre>
 
