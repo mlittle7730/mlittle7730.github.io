@@ -54,7 +54,7 @@ View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mli
 
 ### *Algorithms and Data Structures*
 
-I then enhanced the Algorithms and Data Structures in this artifact by first implementing time complexity to the sort algorithms so that it displays how long it took to sort the data by parameters. To increase algorithm complexity I added a new algorithm for sort by title using Bubble sort by Big-O, and created a radio select button for it ("Bubble Sort by Title"). Here are the scenarios for the bubble sort algorithm, where N is the number of items in the data it's sorting.
+I then enhanced the Algorithms and Data Structures in this artifact by first implementing something that could measure the time complexity when sorting algorithms so that it displays how long it took to sort the data by parameters. To increase algorithm complexity I added a new algorithm for sort by title using Bubble sort by Big-O, and created a radio select button for it ("Bubble Sort by Title"). Here are the scenarios for the bubble sort algorithm, where N is the number of items in the data it's sorting.
 
 <img src="scenarios.png" height=250>
 
