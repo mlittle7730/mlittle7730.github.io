@@ -47,7 +47,7 @@ View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.
 
 ### *Software Design and Engineering*
 
-I enhanced the Software Design and Engineering in this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing, so it has been updated to a nicer GUI that now has radio select buttons and displays the data in an organized column using tkinter. Since the application was solely driven by functions in the main file, I then made it modular by creating classes for the functionality.
+I enhanced the Software Design and Re-engineering this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing, so it has been updated to a nicer GUI that now has radio select buttons and displays the data in an organized column using tkinter. Since the application was solely driven by functions in the main file, I then made it modular by creating classes for the functionality.
 
 View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Software%20Engineering%20and%20Design%20-%20Narrative.pdf).
 
