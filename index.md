@@ -82,7 +82,7 @@ I employed strategies for building collaborative environments by pushing my code
 
 ### *Outcome 2*
 
-I have designed, developed, and delivered quality oral, written, and visual communications by creating the Python application, a nice GUI to accompany it, and adding sorting algorithms. The application sorts by parameters and implements bubble sort in one of the sorting options as well. Adding a database that implemented the attributes in the proper columns was also important. I included a README file in the repository stored final project to explain changes. Doing all of these changes met Outcome 2.
+I have designed, developed, and delivered quality oral, written, and visual communications by creating the Python application, a nice GUI to accompany it, adding sorting algorithms, and applying error handling protocols into the code. The application sorts by parameters and implements bubble sort in one of the sorting options as well. Adding a database that implemented the attributes in the proper columns was also important. I included a README file in the repository stored final project to explain changes. Doing all of these changes met Outcome 2.
 
 ### *Outcome 3*
 
