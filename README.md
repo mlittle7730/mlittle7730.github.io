@@ -1,20 +1,18 @@
 # <pre align="center">Final Project</pre>
 
-*Note: Due to Libary version, "append" on line 74 of the "data.py" file may have to be updated to "_append" or vise versa.*
-
-*ALSO NOTE: Make sure Date added when using "Add a Bid" is an existing date, otherwise sorting by date won't work*
+*Note: Due to Libary version, "append" on line 100 of the "data.py" file may have to be updated to "_append" or vise versa.*
 
 ## <pre align="center">Functionality</pre>
 
-Originally, this code was a [C++ Project](https://github.com/mlittle7730/mlittle7730.github.io/tree/Vector-Sorting) that has now been updated to a Python Application. This project allows the user to view data off of a CSV file, sort the data using different parameters using sorting alorithms, and upload new bids/data to a database through SQL Lite. All of this was implemented through a visually pleasing GUI using tkinter and done with security practices in mind.
+Originally, this code was a [C++ Project](https://github.com/mlittle7730/mlittle7730.github.io/tree/Vector-Sorting), it has been converted to a Python Application. This project allows the user to load data off of a CSV file, sort that data using different parameters with sorting alorithms, and upload new bids to a database through SQL Lite. The application runs a visually pleasing GUI using tkinter and was created with security practices in mind.
 
 ## Updates and Issues
 
-First update I made to this project was creating it in Python, reimplementing the sorting algorithms I created in C++ and applying a tkinter GUI was the next step. Following this I was able to make the code modular using classes.
+First update I made to this project was creating it in Python, after adding a GUI with tkinter then I had to recreate the sorting algorithms I had created in C++ and make them more efficient.  Next I was able to modularize the code using classes.
 
-Next updates was creating new algorithm functionality, where I used bubble sort. I then added time complexity to the code for the sorting functions, which initially only displayed 0s but is fixed now.
+To enhance the algorithms further, I implemented time complexity and diversified the sorting algorithms used per function. Merge Sort and Heap Sort algorithms were the best. I used SQL Lite to add a database to the code. Now all bids that are added will be stored in the database and the user will be able to display and sort them at any time.
 
-Lastly I used SQL Lite to add a database to the code. Now all bids that are added will be stored in the database and the user will be able to display and sort them at any time.
+My last changes were implementing unit tests and error handling protocols, this was a user can't just input any data into the database, which is another layer of security.
 
 Issues and Complications:
 
@@ -24,8 +22,10 @@ The sort by functions were returning “nan” for date and amount for a very lo
 
 One of the challenges with databases was coming up with a way to implement data from a database as well as the CSV file when loading bids. Once that worked the next issue was that the data types were not matching, so when sorting the values would return as “nan”. A choice that took a lot of consideration was choosing which database management system would be best for security, using SQL Lite turned out to be the most secure when using this app.
 
+In the data.py file, I localized the submit_input function instead of having it call gui.py which was difficult. I then made the time taken to sort the data by parameters display on the GUI which took me some time.
+
 ## Future Plans
 
 I plan to add a server based database with users and permissions in the future. This will allow for companywide implementation of this application, since they will be able to pull the same information with permissions and higher security.
-I also plan on giving the GUI another theme using customtkinter at some point in the future, since it is using a basic GUI for now.
+I want to create more unit tests to run situational tests in the code and fix my Not Null unit test so that it runs properly.
 Adding "Update a bid" and "Search bid" functions will also make this project a lot more lucrative.
