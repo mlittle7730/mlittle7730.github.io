@@ -40,7 +40,7 @@ This is my Python Application after all of the changes have been made to meet al
 
 Here is the new and improved GUI for this application:
 
-<img src="Category1 After.JPG" height=250>
+<img src="Gov Bids After.jpg" height=250>
 
 View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.io/tree/Gov-Bids-Application).
 
