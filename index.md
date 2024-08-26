@@ -50,23 +50,27 @@ View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.
 
 ### *Software Design and Engineering*
 
-I enhanced the Software Design and Re-engineering this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing, so it has been updated to a nicer GUI that now has radio select buttons and displays the data in an organized column using tkinter. Since the application was solely driven by functions in the main file, I then made it modular by creating classes for the functionality.
+I enhanced the Software Design and Re-engineering this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing. Now the project loads a GUI that uses radio select buttons and a submit button to display the data in an organized column using tkinter. Since the application was solely driven by functions in the main file when built in C++, I then made it modular by creating classes for the functionality.
 
 View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Software%20Engineering%20and%20Design%20-%20Narrative.pdf).
 
 ### *Algorithms and Data Structures*
 
-I then enhanced the Algorithms and Data Structures in this artifact by first implementing something that could measure the time complexity when sorting algorithms so that it displays how long it took to sort the data by parameters. To test different algorithm complexity, I added a new algorithm for sort by title using Bubble sort, and created a radio select button for it ("Bubble Sort by Title"). Here are the scenarios for the bubble sort algorithm, where N is the number of items in the data it's sorting.
+I then enhanced the Algorithms and Data Structures in this artifact by first implementing something that could measure the time complexity when sorting algorithms so that it displays how long it took to sort the data by parameters. Each sorting function displays which algorithm was used and how long it took. To test different algorithm complexity, I added a new algorithm for sort by title using Bubble sort, and created a radio select button for it ("Bubble Sort by Title"). I listed the best, average, and worst case scenarios for each of the algorithms. For reference here are the scenarios for the bubble sort algorithm, where N is the number of items in the data it's sorting.
 
 <img src="scenarios.png" height=250>
 
 <code><a href="https://big-o.io/">Image Source</a>.</code>
 
+Merge sort and Heap sort are some of the best algorithms running in this project. To continue my enhancements, I implemented error handling protocols, utilized different sorting algorithms for each radio select function, and created unit tests for the input fields.
+
 View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
 
 ### *Databases*
 
-Lastly, I added a Database to this artifact using SQL Lite. The user could add bids to the data but it wasn't stored anywhere and was lost once the program was shut. By adding a database to this application to hold the added bids they were able to save through each run. The user can now load the bids from the database with or seperate from the CSV data, and sort through the data as usual.
+Lastly, I added a Database to this artifact using SQL Lite. I wanted the user to be able to add bids to the list, since it is pretty useless otherwise. By adding a database to this application to hold the added bids, the project will now store the information and not lose it after it is closed. The user can now load the bids from the database with or without the data from the CSV data, and sort through the data as usual.
+
+There are error handling protocols in place for the insert bids function, a user has to implement a unique number for the bidID, a REAL number for the bid amount, and a date with the format DD/MM/YYYY for the closing date field.
 
 View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
 
@@ -74,7 +78,7 @@ View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mli
 
 ### *Outcome 1*
 
-I employed strategies for building collaborative environments by pushing my code to a git repository. I also met this course outcome by reviewing the code and applying changes where needed through the review and commenting out each new change. I also Modularized the code, since it is now running through an object oriented design, other coders can easily jump in and add new functionality. I listed TO-DO's each time I was going to start and each time I finished a session of updates for the code.
+I employed strategies for building collaborative environments by pushing my code to a git repository. I also met this course outcome by reviewing the code and applying changes where needed through the review process and commenting out each new change. I also Modularized the code, since it is now running through an object oriented design, other coders can easily jump in and add new functionality. I listed TO-DO's each time I was going to start and each time I finished a session of updates for the code, this way if changes are being integrated throughoutn the code, team memebers can build onto it.
 
 ### *Outcome 2*
 
