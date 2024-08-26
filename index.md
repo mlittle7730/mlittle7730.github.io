@@ -52,7 +52,7 @@ View the Artifact code [HERE](https://github.com/mlittle7730/mlittle7730.github.
 
 I enhanced the Software Design and Re-engineering this artifact by converting it from a C++ project to a Python application. This application loads bid data from a CSV file and uses sorting algorithms to sort those bids by different parameters. When it was a C++ project the program would launch in a terminal window that was not visually pleasing. Now the project loads a GUI that uses radio select buttons and a submit button to display the data in an organized column using tkinter. Since the application was solely driven by functions in the main file when built in C++, I then made it modular by creating classes for the functionality.
 
-View my narrative for this enhancement [HERE]([(https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Category%201%20Narrative%20Little.Miguel.pdf]).
+View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Category%201%20Narrative%20Little.Miguel.pdf).
 
 ### *Algorithms and Data Structures*
 
@@ -64,7 +64,7 @@ I then enhanced the Algorithms and Data Structures in this artifact by first imp
 
 Merge sort and Heap sort are some of the best algorithms running in this project. To continue my enhancements, I implemented error handling protocols, utilized different sorting algorithms for each radio select function, and created unit tests for the input fields.
 
-View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
+View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Category%202%20Narrative_Little.Miguel.pdf).
 
 ### *Databases*
 
@@ -72,7 +72,7 @@ Lastly, I added a Database to this artifact using SQL Lite. I wanted the user to
 
 There are error handling protocols in place for the insert bids function, a user has to implement a unique number for the bidID, a REAL number for the bid amount, and a date with the format DD/MM/YYYY for the closing date field.
 
-View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Data%20Structures%20and%20Algorithms%20-%20Narrative.pdf).
+View my narrative for this enhancement [HERE](https://github.com/mlittle7730/mlittle7730.github.io/blob/Narratives/Category%203%20Narrative_Little.Miguel.pdf).
 
 ### <center>Meeting Each Course Outcome</center>
 
