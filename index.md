@@ -19,10 +19,10 @@ This ePortfolio is part of my Computer Science Capstone course, in it I will sho
 
 ### *Code Review*
 
-Why conduct Code Review anyway?
-Whether the project is large scale or a small project, code review should be a prioritized process. The objective of a successful code review is reviewing it and making sure it is functional, doesn't have any logic errors or bugs within the code, making sure it is organized and practically written, and lastly verifying its security.
+Why conduct Code Review?
+Whether the project is large scale or a small project, code review should be a non-negotiable step in the process. The purpose of code review is to at least verify that the code is functional, well-structured, free of bugs and logic errors, and secure. When conducting a deeper code review process, each step is reviewed in more detail; the design is checked to make sure it doesn't only follow coding standars, but also is consistent, reusable, non-repetitive, efficient, and doesn't consist of redundant code. Once the structure is reviewed, the code is checked for proper comments and documentation, proper variable usage and creation, the loops and branches are checked to make sure each line is properly nested, the code is checked for rounding errors, defensive programming methods are checked, and so on. All of these are examples of what a thorough code review should look like. If this process is skipped, an application will have many bugs, errors, messy code, and will be vulnerable to cyber attacks.
 
-Here I review the code I enhanced. I go over the functionality of the original code, how the structure, logic, efficiency, functionality, security, testing, commenting, and documenting can be improved, and lastly a walkthrough of the planned enhancements and how they will meet the five course outcomes accross the three categories.
+Below this paragraph is a video of the code I reviewed before making enhancements. In this review I go over the functionality of the original code's sstructure, logic, efficiency, functionality, security, documentation, and list ways it can be improved. In my review, I make mention of each of my planned enhancements and how they will meet the five course outcomes accross the three categories while reviewing each point.
 
 Click [HERE](https://drive.google.com/file/d/1Wbz0zFgD8CoNAkRwpnA0gpTpmdjPFkHz/view?usp=drive_link) to watch the code review video.
 
