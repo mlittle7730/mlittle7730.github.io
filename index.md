@@ -28,7 +28,7 @@ Click [HERE](https://drive.google.com/file/d/1Wbz0zFgD8CoNAkRwpnA0gpTpmdjPFkHz/v
 
 ## <center>ORIGINAL ARTIFACT</center>
 
-This is the artifact project I will be making enhancements to. This application is written in C++ and it has a basic terminal interface for users to display bids and sort them using basic sort algorithms. The reason I chose this project as an artifact to enhance is because it has a lot of room for improvement such as a creating a proper GUI, making the code modular, better algorithm utilization such as sorting by parameters, and enhancing the user experience and usability such as creating an "Add a bid" function and a database to store the added bids.
+The artifact project I made enhancements to is a C++ Bid Sorting project. This project has a basic terminal interface where users can enter numbered options to display bids from a local CSV file and sort them using sorting algorithms. I selected this project as my artifact since it had room for improvement throughout each category. The code didn't have a variety of sorting algorithms, a proper GUI, the option to insert, a database, time complexity, and the code was messy in general. My plan was to convert this code to a Python application to optimize each of those areas, make the code modular, and enhance the overall user experience and potential implementation of this application.
 
 Here is the original terminal interface for the application:
 
@@ -38,9 +38,9 @@ View the original artifact code [HERE](https://github.com/mlittle7730/mlittle773
 
 ## <center>ENHANCED ARTIFACT</center>
 
-This is my Python Application after all of the changes have been made to meet all of the three categories. The GUI is visually appealing and the application functions allow the user to display the bids, sort them by a few different parameters, add a bid entry, and to display the bids that have been uploaded to the database.
+This is my Python Application GUI after all of the changes have been made to meet all of the three categories. The GUI is visually appealing and has radio select buttons that a user can submit to display the bids from the CSV file and database, sort them by a few different parameters, add bid entries which opens another box, and close the application with the X instead of a input.
 
-Here is the new and improved GUI for this application:
+Here is the GUI for this application:
 
 <img src="Gov Bids After.jpg" height=250>
 
